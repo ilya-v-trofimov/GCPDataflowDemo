@@ -5,7 +5,7 @@ It
  - reads files using TikaIO transform (based on Apache Tika)
  - parses as CSV 
  - writes to BigQuery table
-##Prerequisites
+## Prerequisites
  - Source dataset is a file of xlsx format. 
  - Structure of the file should match the structure of an open dataset available at the following URL:
  https://data.nsw.gov.au/data/dataset/4e51f1d3-4b72-48b8-96ef-8493b7aa9c37/resource/ca5c4a11-64f8-4583-91c9-d9436d38e2e9/download/fa13-2016-17.xlsx
@@ -21,9 +21,9 @@ It
  - GOOGLE_APPLICATION_CREDENTIALS must be set in the environment which application is run from. For more details on that, please see 
  https://cloud.google.com/dataflow/docs/quickstarts/quickstart-java-maven
  
-##Install
+## Install
 Simply clone this repository 
-##Run
+## Run
 Apache Beam pipeline can be run on top of many platforms, including local machine and Google Cloud Platform Dataflow
 
 To run on GCP Dataflow, use the following command:
